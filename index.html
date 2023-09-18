@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100&display=swap" rel="stylesheet">
+  <style>
+  *{
+      box-sizing: border-box;
+    }
+h1{
+    text-align: center;
+      color: #909090;
+    }
+h2{
+      margin: 20px 180px;
+      background: linear-gradient(90deg, #008080, #C0C0C0);
+      padding: 30px;
+      font-size: 20px;
+      font-family: 'Victor Mono', monospace;
+      text-align: center;
+      color: #644117;
+    }
+.column{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 400px;
+  margin: 18px;
+  border-radius: 7px;
+}
+.row:after{
+  display: table;
+  clear: both;
+  text-align: left;
+}
+ul{
+  line-height: 45px;
+}
+a{
+  display: inline-block;
+  text-align: center;
+  color: #008080;
+  font-size: 20px;
+  padding-right: 40px;
+}
+.myclass{
+  text-align: center;
+}
+@media screen and (max-width: 900px) {
+  .row, .column,.myclass, h2{
+    width:100%;
+}
+}
+  </style>
+</head>
+<body>
+  <h1>The Dental Hygiene Association</h1>
+  <div class="myclass">
+  <a href="index.html">Home</a>
+  <a href="Adults.html">Adults</a>
+  <a href="Kids.html">Kids</a>
+  <a href="News.html">News</a>
+  <a href="FAQ.html">FAQ</a>
+  <a href="Glossaru.html">Glossaru</a>
+</div>
+  <h2>Only 46% of households buy toothbrushes</h2>
+
+  <hr>
+
+  <div class="row">
+  <div class="column"  style="background-color:#f3e9ff;">
+    <h3>News & Events</h3>
+    <ul>
+      <p>Click to find out more!</p>
+      <li>Irish Academy of Aesthetic Density (IAAD) Meeting</li>
+      <li>Irish Dentist report on estinig disorders</li>
+      <li>IDA annual conference 2014</li>
+      <li>Maternal saliva predicts dental</li>
+    </ul>
+  </div>
+
+  <div class="column" style="background-color:#fddfef;">
+    <h3>Find a Dentist</h3>
+    <p>Looking for a dentist in your area? Enter any <br>details bicole and search for dentists near you!</p>
+    <label for="fname">First name of Dentist</label><br>
+    <input type="text" name="fname" value="" placeholder="First name"><br>
+    <label for="lname">Last name</label><br>
+    <input type="text" name="lname" value="" placeholder="Last name"><br>
+    <label for="location">Location</label><br>
+    <input type="text" name="location" value="" placeholder="location"><br>
+    What type of Dentist you looking for?<br>
+    <input type="checkbox" name="" value="">&nbsp;&nbsp;Orthodontist <br>
+    <input type="checkbox" name="" value="">&nbsp;&nbsp;General Dental Practitioner <br>
+  </div>
+
+  <div class="column" style="background-color:#f0ceed;">
+  <h3>Tooth Tips</h3>
+  <ul>
+    <li>Change your tooth brush every 3 months</li>
+    <li>Clear your tongue as well as your teeth</li>
+    <li>Floss every day</li>
+    <li>See your Dentist every 6 months</li>
+    <li>Cut down on how often you have sweet drinks and foods</li>
+  </ul>
+  </div>
+
+  </div>
+</body>
+</html>
